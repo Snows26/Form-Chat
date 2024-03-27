@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.user-msg {
+  float: right; /* Alinha à esquerda */
+  clear: both;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px 0px rgba(92, 93, 94, 0.3137254902);
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 400px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border-radius: 10px 0px 10px 10px;
+}/*# sourceMappingURL=usermsg.css.map */

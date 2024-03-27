@@ -1,0 +1,78 @@
+.input-user-keybord {
+  flex: 1;
+}
+.input-user-keybord .input-keybord {
+  margin-top: 6px;
+  padding: 15px;
+  height: 40px;
+  width: 100%;
+  border: 0px solid #000000;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 2px 4px 8px 0px rgba(92, 93, 94, 0.3137254902);
+}
+.input-user-keybord .input-keybord:focus-visible {
+  outline: none;
+}
+.input-user-keybord .input-keybord::-moz-placeholder {
+  color: #000000;
+  font-weight: 400;
+  font-family: "__JetBrains_Mono_fb6b5b", "__JetBrains_Mono_Fallback_fb6b5b";
+  font-size: 13pt;
+  font-style: normal;
+}
+.input-user-keybord .input-keybord::placeholder {
+  color: #000000;
+  font-weight: 400;
+  font-family: "__JetBrains_Mono_fb6b5b", "__JetBrains_Mono_Fallback_fb6b5b";
+  font-size: 13pt;
+  font-style: normal;
+}
+
+.input-user-radio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6px;
+  flex: 1;
+}
+.input-user-radio .radio-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-user-radio .radio-body .radio-base {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #b6c9e0;
+  border: 2px solid #2463b6;
+  min-width: 132px;
+  height: 58px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.input-user-radio .radio-body .radio-base:hover {
+  background: #72a6d0;
+}
+.input-user-radio .radio-body .radio-base:checked {
+  background-color: #2463b6;
+}
+.input-user-radio .radio-body .radio-base:checked:hover {
+  background: rgba(36, 99, 182, 0.6980392157);
+}
+.input-user-radio .radio-body .radio-base:checked + label {
+  color: #fff;
+}
+.input-user-radio .radio-body label {
+  position: absolute;
+  font-family: "__JetBrains_Mono_fb6b5b", "__JetBrains_Mono_Fallback_fb6b5b";
+  font-size: 12pt;
+  font-weight: 600;
+  color: #2463b6;
+  pointer-events: none;
+}/*# sourceMappingURL=inputs.css.map */

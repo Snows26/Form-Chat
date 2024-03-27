@@ -1,0 +1,32 @@
+.bot-msg {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  clear: both;
+}
+.bot-msg .body-img-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  border-radius: 100%;
+  transform: translate(-15px, 10px);
+  border: solid 2px #000000;
+}
+.bot-msg .msg {
+  padding: 10px;
+  background-color: #2463b6;
+  box-shadow: -2px px 10px 0px rgba(92, 93, 94, 0.3137254902);
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 400px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  border-radius: 0px 10px 10px 10px;
+}
+.bot-msg .msg h6 {
+  color: #fff;
+  font-weight: 500;
+}/*# sourceMappingURL=botmsg.css.map */

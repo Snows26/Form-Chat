@@ -1,0 +1,16 @@
+@import '../variablestyle/variablestyle';
+
+.user-msg{
+    float: right; /* Alinha à esquerda */
+    clear: both;
+    padding: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 5px 5px 10px 0px #5c5d5e48;
+    -moz-box-shadow: 5px 5px 10px 0px #5c5d5e48;
+    box-shadow: 5px 5px 10px 0px #5c5d5e50;
+    width: fit-content;
+    max-width: 400px;
+    margin-bottom: 10px;
+    font-size: $font-size-msg;
+    border-radius: 10px 0px 10px 10px;
+}

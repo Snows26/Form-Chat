@@ -1,0 +1,81 @@
+@import '../variablestyle/variablestyle';
+
+.input-user-keybord{
+  flex: 1;
+    .input-keybord{
+      margin-top: 6px;
+      padding: 15px;
+      height: 40px;
+      width: 100%;
+      border: 0px solid #000000;
+      border-radius: 15px;
+      background-color: #ffffff;
+      color: #000000;
+      -webkit-box-shadow: 2px 4px 8px 0px #5c5d5e50;
+      -moz-box-shadow: 2px 4px 8px 0px #5c5d5e50;
+      box-shadow: 2px 4px 8px 0px #5c5d5e50;
+    }
+    .input-keybord:focus-visible{
+      outline: none;
+    }
+    .input-keybord::placeholder{
+      color: #000000;
+      font-weight: 400;
+      font-family: $font-family;
+      font-size: 13pt;
+      font-style: normal;
+    }
+}
+
+//STYLE RADIO BUTTON
+
+.input-user-radio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6px;
+  flex: 1;
+
+  .radio-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .radio-base {
+      appearance: none;
+      background: #b6c9e0;
+      border: 2px solid #2463b6;
+      min-width: 132px;
+      height: 58px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        background: #72a6d0;
+      }
+
+      &:checked {
+        background-color: #2463b6;
+
+      &:hover {
+          background: #2463b6b2;
+        }
+        + label {
+          color: #fff; // Altera a cor do label quando o input está checado
+        }
+      }
+    }
+
+    label {
+      position: absolute;
+      font-family: $font-family;
+      font-size: 12pt;
+      font-weight: 600;
+      color: #2463b6;
+      pointer-events: none;
+    }
+  }
+}
